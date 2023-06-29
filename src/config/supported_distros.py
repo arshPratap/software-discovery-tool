@@ -14,15 +14,15 @@ SUPPORTED_DISTROS = {
 },
 'OpenSUSE': {
 	'Leap 15.3': 'OpenSUSE_Leap_15_3',
-	#'Tumbleweed': 'OpenSUSE_Tumbleweed',
-	#'Leap 15.4': 'OpenSUSE_Leap_15_4'
+	'Tumbleweed': 'OpenSUSE_Tumbleweed',
+	'Leap 15.4': 'OpenSUSE_Leap_15_4'
 },
 'Fedora': {
 	'Fedora 34': 'Fedora_34_List',
 	'Fedora 35': 'Fedora_35_List',
 	'Fedora 36': 'Fedora_36_List',
-	'Fedora 37': 'Fedora_37_List'#,
-	#'Fedora 38': 'Fedora_38_List.json'
+	'Fedora 37': 'Fedora_37_List'
+	# 'Fedora 38': 'Fedora_38_List'
 },
 'SUSE Package Hub SLES': {
 },
@@ -32,7 +32,10 @@ SUPPORTED_DISTROS = {
 },
 'RHEL': {
 },
-'Rocky Linux':{
+'Alma Linux': {
+	'Alma Linux 9': 'AlmaLinux_9_List'
+},
+'Rocky Linux': {
 	'RockyLinux 9': 'RockyLinux_9_List'
 }
 }
